@@ -38,10 +38,21 @@ const Navbar = () => {
         >
           <li><Link to="/" onClick={toggleMenu}>Introdução</Link></li>
           <li><Link to="/aboutme" onClick={toggleMenu}>Sobre Mim</Link></li>
+          <li>
+            <a
+              href="https://site-literario.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={toggleMenu}
+            >
+              Hobbies
+            </a>
+          </li>
           <li><Link to="/education" onClick={toggleMenu}>Formação</Link></li>
           <li><Link to="/projects" onClick={toggleMenu}>Projetos</Link></li>
           <li><Link to="/contact" onClick={toggleMenu}>Contato</Link></li>
         </ul>
+
       </div>
     </nav>
   );

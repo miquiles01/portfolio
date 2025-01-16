@@ -53,19 +53,22 @@
   }
   
   .submit-button {
-    font-size: 1rem;
-    padding: 10px 20px;
+    font-size: 1rem; 
+    padding: 12px 16px; 
     color: #fff;
     background-color: #D5546A; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    display: block; 
+    margin: 0 auto; 
   }
   
   .submit-button:hover {
     background-color: #a5293d; 
   }
+  
   
   @media (max-width: 600px) {
     .contact-section {
@@ -73,11 +76,35 @@
       justify-content: center;
       align-items: center;
       height: 100vh; 
-      padding: 0; 
+      padding: 0;
     }
   
     .container {
-      padding: 20px;
+      width: 80%; 
+      padding: 10px; 
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    }
+  
+    .contact-section h1 {
+      font-size: 1.2rem; 
+      margin-bottom: 15px; 
+    }
+  
+    .contact-form {
+      gap: 10px; 
+    }
+  
+    input,
+    textarea {
+      font-size: 0.8rem; 
+      padding: 8px; 
+      border-radius: 4px; 
+    }
+  
+    .submit-button {
+      font-size: 0.7rem; 
+      padding: 10px 12px; 
+      margin-top: 20px; 
     }
   }
   
