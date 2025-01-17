@@ -23,8 +23,8 @@ const projectsData = [
   {
     name: 'Sistema de Gestão de Estoque em Next com TS',
     image: estoqueImage,
-    github: 'https://github.com/miquiles01/stock-management',
-    deploy: 'https://seu-deploy-link.com',
+    github: 'https://github.com/miquiles01/stock-management.git',
+    deploy: 'https://stock-management-plum.vercel.app/',
   },
   {
     name: 'Landing Page em HTML e CSS',
